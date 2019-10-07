@@ -234,4 +234,9 @@ if __name__ == '__main__':
     # print(result)
 
     # 输出区
+
+    '''
+    注意新的输出，如果输出文件不存在，会报错
+    '''
+
     out_csv(result, path_out + '\\seed_t.csv')
